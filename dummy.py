@@ -1,4 +1,8 @@
+import requests
 
-for _ in range(2):
-  a=2
-print(a)
+response = requests.get(url='http://api.open-notify.org/iss-now.json')
+response.raise_for_status()
+
+data = response.json()
+print(data)
+print(data["iss_position"])
