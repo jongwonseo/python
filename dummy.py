@@ -1,8 +1,10 @@
-import requests
+class a:
+  def __self__(self):
+    self.f = open('www.txt')
 
-response = requests.get(url='http://api.open-notify.org/iss-now.json')
-response.raise_for_status()
+  @classmethod
+  def dd(cls):
+    k=1
 
-data = response.json()
-print(data)
-print(data["iss_position"])
+obj = a()
+a.dd.

@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(214, 224, 210);
+}
+
+h1{
+  background-color: red;
+  color: #66BFBF;
+}
+
+h3{
+  color: #66BFBF;
+}
+
+hr{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 10px;
+  width: 30%;
+
+}
+
+img{
+  height: 100px;
+}
+
+/*
+.클래스명{
+
+}
+*/
+.bacon{
+  background-color: green;
+}
+
+.brocolli{
+  background-color: red;
+}
+
+
+/*
+#id이름{
+
+}
+*/
